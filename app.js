@@ -316,10 +316,10 @@ of comment objects.
 - Store the index in the variable 'idx'.
 */
 
-let idx = null;
-
 // Complete the exercise in the space below:
-
+const idx= comments.findIndex((comment)=>{
+    return comment.id==123523
+})
 // Check your work:
 console.log('Exercise 9 my result: ', idx);
 console.log('Exercise 9 correct result: ', 3);
